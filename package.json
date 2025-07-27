@@ -1,0 +1,17 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "view": "explorer index.html",
+    "deploy:pug-index": "pug index.pug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anst-foto/resume.git"
+  },
+  "private": true,
+  "devDependencies": {
+    "pug": "^3.0.3"
+  }
+}

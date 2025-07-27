@@ -1,0 +1,56 @@
+body,html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 75vw;
+    margin: 0 auto;
+
+    background-color: darkgrey;
+
+    /*display: flex;
+    flex-direction: column;
+    justify-content: space-between;*/
+}
+
+header {
+    background-color: lightcoral;
+    height: 100px;
+
+    /*display: flex;
+    flex-direction: column;
+    justify-content: space-around;*/
+}
+
+main {
+    background-color: lightblue;
+}
+
+footer {
+    background-color: lightgreen;
+    height: 80px;
+    padding: 10px;
+    color: black;
+}
+
+nav {
+    background-color: coral;
+    height: 50px;
+}
+
+nav > ul {
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+
+    /*display: flex;
+    flex-direction: row;
+    justify-content: space-around;*/
+}
+
+header > h1 {
+    text-align: center;
+    margin: 0;
+}
